@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 10px;
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587051566320&di=c5c3f0194da63fe03106893e76acf3a1&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2F5bb5a4ec0556ddce82a8f359d17e4884c150ba0b.jpg") bottom center;
+  background-size: 100%;
+}
+.keys {
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.keys .key {
+  margin: 1rem;
+  border: 0.4rem solid #000;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  width: 10rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 0.5rem #000;
+  transition: all 0.07s ease;
+}
+.keys .key div {
+  display: block;
+  font-size: 4rem;
+}
+.keys .key .sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+.key.playing {
+  border: 0.6rem solid #ffc600;
+}
